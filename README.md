@@ -2,19 +2,19 @@
 [1]: https://img.shields.io/badge/license-GPLV2-brightgreen.svg
 [2]: /LICENSE
 [3]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[4]: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/pulls
+[4]: https://github.com/alex200234/OpenWrt_x86-r2s-r4s/pulls
 [5]: https://img.shields.io/badge/Issues-welcome-brightgreen.svg
-[6]: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/issues/new
+[6]: https://github.com/alex200234/OpenWrt_x86-r2s-r4s/issues/new
 [7]: https://img.shields.io/github/v/release/hyird/Action-Openwrt
-[8]: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/releases
+[8]: https://github.com/alex200234/OpenWrt_x86-r2s-r4s/releases
 [10]: https://img.shields.io/badge/Contact-telegram-blue
 [11]: https://t.me/opwrts
-[12]: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/actions/workflows/Openwrt-AutoBuild.yml/badge.svg
-[13]: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/actions
+[12]: https://github.com/alex200234/OpenWrt_x86-r2s-r4s/actions/workflows/Openwrt-AutoBuild.yml/badge.svg
+[13]: https://github.com/alex200234/OpenWrt_x86-r2s-r4s/actions
 
 [![license][1]][2]
-[![GitHub Stars](https://img.shields.io/github/stars/kiddin9/OpenWrt_x86-r2s-r4s.svg?style=flat-square&label=Stars)](https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/kiddin9/OpenWrt_x86-r2s-r4s.svg?style=flat-square&label=Forks)](https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/alex200234/OpenWrt_x86-r2s-r4s.svg?style=flat-square&label=Stars)](https://github.com/alex200234/OpenWrt_x86-r2s-r4s/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/alex200234/OpenWrt_x86-r2s-r4s.svg?style=flat-square&label=Forks)](https://github.com/alex200234/OpenWrt_x86-r2s-r4s/fork)
 [![PRs Welcome][3]][4]
 [![Issue Welcome][5]][6]
 [![AutoBuild][12]][13]
@@ -51,7 +51,7 @@
 
 #### 默认密码 root
 
-####  Docker镜像: [kiddin9/openwrt-nginx](https://hub.docker.com/r/kiddin9/openwrt-nginx)
+####  Docker镜像: [alex200234/openwrt-nginx](https://hub.docker.com/r/alex200234/openwrt-nginx)
 
 #### 固件内置的快捷访问入口(部分服务需要先自行在软件包中安装并启用):
 
@@ -69,7 +69,7 @@
 
 云编译需要 [在此](https://github.com/settings/tokens) 创建个token,然后在此仓库Settings->Secrets中添加个名字为REPO_TOKEN的Secret,填入token值,否者无法触发编译
 
-在仓库Settings->Secrets中分别添加 PPPOE_USERNAME, PPPOE_PASSWD 可设置默认拨号账号密码.有 [安全隐患](https://github.com/kiddin9/OpenWrt_x86-r2s-r4s/issues/23)
+在仓库Settings->Secrets中分别添加 PPPOE_USERNAME, PPPOE_PASSWD 可设置默认拨号账号密码.有 [安全隐患](https://github.com/alex200234/OpenWrt_x86-r2s-r4s/issues/23)
 
 Secrets中添加 SCKEY 可通过[Server酱](http://sc.ftqq.com) 推送编译结果到微信
 
@@ -118,7 +118,7 @@ Build OpenWrt using GitHub Actions
 ### Usage
 
 - Sign up for [GitHub Actions](https://github.com/features/actions/signup)
-- Fork [this GitHub repository](https://github.com/kiddin9/OpenWrt)
+- Fork [this GitHub repository](https://github.com/alex200234/OpenWrt)
 - click the `Star` button, and the build will starts automatically.Progress can be viewed on the Actions page.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
@@ -130,13 +130,13 @@ Build OpenWrt using GitHub Actions
 - [GitHub](https://github.com)
 - [GitHub Actions](https://github.com/features/actions)
 
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/1.png)
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/2.png)
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/3.png)
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/8.png)
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/4.png)
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/5.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/1.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/2.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/3.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/8.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/4.png)
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/5.png)
 <br/>
 <br />
-<img src="https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/6.png" width="550" />
-![](https://github.com/kiddin9/luci-theme-edge/raw/master/Screenshots/7.png)
+<img src="https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/6.png" width="550" />
+![](https://github.com/alex200234/luci-theme-edge/raw/master/Screenshots/7.png)
